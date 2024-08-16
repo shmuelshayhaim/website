@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מעבר לתשלום</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>עבור לתשלום</h1>
+    </header>
+
+    <main>
+        <h2>העגלה שלך</h2>
+        <div id="cartItems"></div>
+        <h3>סה"כ לתשלום: <span id="totalPrice">₪0</span></h3>
+
+        <form action="server.php" method="POST">
+            <label for="username">שם משתמש:</label>
+            <input type="text" id="username" name="username" required>
+
+            <input type="hidden" name="product_id" id="product_id" value="">
+
+            <button type="submit">שלם עכשיו</button>
+        </form>
+    </main>
+
+    <script>
+        // כאן נוסיף את הקוד להוספת המוצרים לעגלה ולעדכון ה-ID של המוצר בטופס
+    </script>
+</body>
+</html>

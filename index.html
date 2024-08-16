@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>חנות אונליין</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ברוכים הבאים לחנות שלנו</h1>
+        <nav>
+            <a href="index.html">בית</a>
+            <a href="about.html">אודות</a>
+            <a href="contact.html">צור קשר</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>המוצרים שלנו</h2>
+        <div class="products">
+            <!-- 10 מוצרים -->
+            <div class="product">
+                <img src="product1.jpg" alt="מוצר 1">
+                <h3>מוצר 1</h3>
+                <p>₪100</p>
+                <button onclick="addToCart(1)">הוסף לעגלה</button>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="מוצר 2">
+                <h3>מוצר 2</h3>
+                <p>₪200</p>
+                <button onclick="addToCart(2)">הוסף לעגלה</button>
+            </div>
+            <!-- הוסף עוד 8 מוצרים בצורה דומה -->
+        </div>
+    </main>
+
+    <footer>
+        <a href="checkout.html">עבור לתשלום</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
